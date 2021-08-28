@@ -1,8 +1,10 @@
-package com.example.g6information;
+package com.example.g6information.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.g6information.R;
 
 public class MainActivity extends AppCompatActivity {
 
