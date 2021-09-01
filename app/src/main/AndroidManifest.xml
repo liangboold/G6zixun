@@ -3,6 +3,8 @@
     package="com.example.g6information">
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,14 +13,14 @@
         android:theme="@style/Theme.G6information">
         <activity android:name=".activity.LoginActivity"></activity>
         <activity android:name=".activity.ResActivity">
+
+        </activity>
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".activity.MainActivity">
-
         </activity>
     </application>
 
